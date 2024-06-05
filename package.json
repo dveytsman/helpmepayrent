@@ -1,9 +1,12 @@
 {
   "name": "helpmepayrent",
   "version": "1.0.0",
+  "homepage": "https://dveytsman/github.io/helpmepayrent",
   "description": "Quick and dirty site to list items for sale",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server ./src",
     "startdev": "webpack serve --mode development",
     "build": "Webpack ./src",
@@ -25,6 +28,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jest": "^28.5.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.1.1",
     "path": "^0.12.7",
     "url-loader": "^4.1.1",
     "webpack": "^5.91.0",
