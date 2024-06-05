@@ -50,6 +50,14 @@ module.exports = {
           },
         ],
       },
+      {
+        rules: [
+          {
+            test: /\.css$/,
+            use: ["style-loader", "css-loader"],
+          },
+        ],
+      },
       // Add other rules if necessary (e.g., for CSS)
     ],
   },
