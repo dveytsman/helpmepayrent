@@ -1,7 +1,7 @@
 {
   "name": "helpmepayrent",
   "version": "1.0.0",
-  "homepage": "https://dveytsman.github.io/helpmepayrent",
+  "homepage": "https://www.helpmepayrent.com",
   "description": "Quick and dirty site to list items for sale",
   "main": "index.js",
   "scripts": {
