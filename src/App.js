@@ -1,6 +1,8 @@
 import React from "react";
 import ItemsList from "./ItemsList";
 import items from "./items_data";
+import "./item_styles.css";
+import Popup from "./Popup";
 
 const App = () => {
   return (
@@ -11,6 +13,7 @@ const App = () => {
         TBD: The plan is to create a site for users in need of funds to pay
         bills to be able to sell their goods
       </h4>
+      <Popup />
       <ItemsList className="products" items={items} />
     </div>
   );

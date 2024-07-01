@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d build",
     "start": "webpack-dev-server ./src",
     "startdev": "webpack serve --mode development",
-    "build": "Webpack ./src",
+    "build": "webpack --config webpack.prod.js",
     "test": "test"
   },
   "author": "David Veytsman",

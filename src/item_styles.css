@@ -1,6 +1,46 @@
-img {
-  width: 200px;
+.item img {
+  width: 50%;
+  margin: 10px;
 }
 div {
   background-color: #f2f2f2;
+}
+.app {
+  display: grid;
+  padding: 30px;
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  font-family: "Quicksand";
+}
+.item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid black 1px;
+  border-radius: 30px;
+  margin: 10px;
+  background-color: rgba(37, 37, 240, 0.14);
+}
+
+@media screen and (max-width: 1000px) {
+  .items {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .items {
+    grid-template-columns: repeat(1, auto);
+  }
 }
