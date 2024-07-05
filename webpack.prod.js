@@ -79,13 +79,14 @@
 
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const webpack = require("webpack");
 
 module.exports = {
   entry: "./src/index.js",
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "build"),
-    publicPath: "/",
+    publicPath: process.env.PUBLIC_URL || "/",
   },
   mode: "production",
   module: {
@@ -113,6 +114,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./public/index.html",
       filename: "index.html",
+      templateParameters: {
+        PUBLIC_URL: process.env.PUBLIC_URL || "/",
+      },
+    }),
+    new webpack.DefinePlugin({
+      "process.env.PUBLIC_URL": JSON.stringify(process.env.PUBLIC_URL || ""),
     }),
   ],
   devServer: {
