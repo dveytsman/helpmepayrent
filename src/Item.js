@@ -1,20 +1,14 @@
 import React from "react";
 import "./item_styles.css";
 
-class Item extends React.Component {
-  render() {
-    return (
-      <div className="item">
-        <h2>{this.props.item.itemName}</h2>
-        <p>{this.props.item.description}</p>
-        <p>Price: {this.props.item.price}</p>
-        {/* {this.props.item.images.map((image, index) => (
-          <img key={index} src={image} alt={image.alt} />
-        ))} */}
-        <img src={this.props.item.images[0]} />
-      </div>
-    );
-  }
-}
-
+const Item = ({ item, onClick }) => {
+  return (
+    <div className="item" onClick={() => onClick(item)}>
+      <h3>{item.itemName}</h3>
+      <img src={item.images[0]} />
+      <p>{item.description}</p>
+      <p>Price: ${item.price}</p>
+    </div>
+  );
+};
 export default Item;
