@@ -153,15 +153,6 @@ export const items = [
     images: ["https://i.imgur.com/dWGIeEh.jpeg"],
   },
   {
-    id: 18,
-    price: 100,
-    type: "Fountain Pen",
-    itemName: "Gravitas Entry, flex nib",
-    description:
-      'Gravitas Entry in dark green. is equipped with an "enlisted flex" semi flex nib and ebonite feed from penrealm. I can substitute any other regular #6 sized nib, will take off $20. Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)',
-    images: ["https://i.imgur.com/ffihaqF.jpeg"],
-  },
-  {
     id: 19,
     price: 70,
     type: "Fountain Pen",
@@ -205,7 +196,7 @@ export const items = [
     id: 23,
     price: 130,
     type: "Fountain Pen",
-    itemName: "Gravitas Entry in dark green",
+    itemName: "Gravitas Entry in dark green with flex nib",
     description:
       "A Gravitas Entry in green equipped with an enlisted flex by Kirk Speer of Penrealm. the nib is more flexible than a pilot falcon but less than the other flex nibs I own. I can put in any regular #6 sized nib for 50 dollars less. Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)",
     images: ["https://i.imgur.com/h5ChMOE.jpg"],
