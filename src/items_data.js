@@ -11,18 +11,6 @@ export const items = [
     ],
   },
   {
-    id: 4,
-    price: 40,
-    type: "Keyboard",
-    itemName: "Keychron K3 Pro",
-    description:
-      "This is the non hot swappable version. White backlight, brown low profile switches. Great condition and it comes with the box",
-    images: [
-      "https://i.imgur.com/3mjj55y.jpeg",
-      "https://i.imgur.com/tLBQMpD.jpeg",
-    ],
-  },
-  {
     id: 5,
     price: 90,
     type: "Keyboard",
@@ -30,15 +18,6 @@ export const items = [
     description:
       "This is in like new condition. I can put any of the following switches in the keyboard: low profile gateron blue switches, low profile gateron brown switches, cowberry switches, moss switches, or wisteria switches",
     images: ["https://i.imgur.com/IjF4QAW.jpg.com/IjF4QAW"],
-  },
-  {
-    id: 6,
-    price: 70,
-    type: "Fountain Pen",
-    itemName: "Benu Euphoria Bourbon",
-    description:
-      "Like new condition. The clip is spring loaded and the  fine #6 Schmidt nib is really smooth",
-    images: ["https://i.imgur.com/TEaLFKA.jpeg"],
   },
   {
     id: 7,
@@ -53,24 +32,12 @@ export const items = [
     id: 8,
     price: 40,
     type: "Fountain Pen",
-    itemName: "Platinum Curidas Grey M",
+    itemName: "Platinum Curidas Grey F",
     description:
       "This is in like new condition. Comes with the converter and an ink cartridge. Equipped with a medium nib.",
     images: [
       "https://i.imgur.com/5g6VPZ2.jpeg",
       "https://i.imgur.com/NKm2Z8A.jpeg",
-    ],
-  },
-  {
-    id: 9,
-    price: 40,
-    type: "Fountain Pen",
-    itemName: "Platinum Curidas Teal F",
-    description:
-      "This is in like new condition. Comes with the converter and an ink cartridge. Equipped with a Fine nib",
-    images: [
-      "https://i.imgur.com/ziUzDl9.jpeg",
-      "https://i.imgur.com/9Nqvlns.jpeg",
     ],
   },
   {
@@ -83,18 +50,6 @@ export const items = [
     images: ["https://i.imgur.com/GwTsc8i.jpeg"],
   },
   {
-    id: 11,
-    price: 120,
-    type: "Fountain Pen",
-    itemName: "Edison Collier Blue Macaw LE",
-    description:
-      "Edison Pen Co. Collier in Blue Macaw. This is a limited edition 28/50. Great condition and equipped with a gold plated steel nib speerpoint and tomahawk mod by Kirk Speer. I can substitute any other regular #6 sized nib ($100). Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)",
-    images: [
-      "https://i.imgur.com/7xTnDTl.jpeg",
-      "https://i.imgur.com/Fii4ow9.jpeg",
-    ],
-  },
-  {
     id: 12,
     price: 100,
     type: "Fountain Pen",
@@ -104,24 +59,6 @@ export const items = [
     images: ["https://i.imgur.com/7aqYHK1.jpeg"],
   },
   {
-    id: 13,
-    price: 150,
-    type: "Fountain Pen",
-    itemName: "Esterbrook Estie LE Nebulous plume",
-    description:
-      "Esterbrook Estie, limited run Nebulous plume. This comes with the original box and ink, as well as the gold plated steel #6 Jowo EF nib. I can substitute any other regular #6 sized nib. Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)",
-    images: ["https://i.imgur.com/4uGVgIr.jpeg"],
-  },
-  {
-    id: 14,
-    price: 110,
-    type: "Fountain Pen",
-    itemName: "Esterbrook Estie OS Aqua",
-    description:
-      "This is the Esterbrook Estie, the oversized model in Aqua and gold colored clip and trim. It is equipped with an elastic EF Jowo #6 nib. I can substitute any other regular #6 sized nib. Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)",
-    images: ["https://i.imgur.com/qHtx7JI.jpeg"],
-  },
-  {
     id: 15,
     price: 100,
     type: "Fountain Pen",
@@ -129,19 +66,6 @@ export const items = [
     description:
       "There are some signs of use, this is a Franklin Christoph Model 66 in antique glass. The pen is equipped with a FC Broad SIG. I can substitute any other regular #6 sized nib. Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)",
     images: ["https://i.imgur.com/ytbfjif.jpeg"],
-  },
-  {
-    id: 16,
-    price: 100,
-    type: "Fountain Pen",
-    itemName: "Franklin Christoph, Model p66 in Olivae",
-    description:
-      "Like new condition Franklin Christoph pocket 66 model. It only takes a cartridge and is equipped with an FC Broad SIG nib. I can substitute any other regular #6 sized nib. Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)",
-    images: [
-      "https://i.imgur.com/MAl8wKu.jpeg",
-      "https://i.imgur.com/nN3YXVF.jpeg",
-      "https://i.imgur.com/JyEK1Rz.jpeg",
-    ],
   },
   {
     id: 17,
@@ -191,15 +115,6 @@ export const items = [
       "https://i.imgur.com/dTtnRn0.jpeg",
       "https://i.imgur.com/4tWJ1oT.jpeg",
     ],
-  },
-  {
-    id: 23,
-    price: 130,
-    type: "Fountain Pen",
-    itemName: "Gravitas Entry in dark green with flex nib",
-    description:
-      "A Gravitas Entry in green equipped with an enlisted flex by Kirk Speer of Penrealm. the nib is more flexible than a pilot falcon but less than the other flex nibs I own. I can put in any regular #6 sized nib for 50 dollars less. Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)",
-    images: ["https://i.imgur.com/h5ChMOE.jpg"],
   },
   {
     id: 24,
@@ -281,15 +196,6 @@ export const items = [
     description:
       "Gravitas Vac filler in Ultem. The pen is equipped with a fine semi flex nib from fpnibs.com I can take off 10 dollars and substitute any other regular #6 sized nib. Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)",
     images: ["https://i.imgur.com/ZWNwyt3.jpg"],
-  },
-  {
-    id: 34,
-    price: 100,
-    type: "Fountain Pen",
-    itemName: "Herbert Churchill in primary manipulation",
-    description:
-      "Herbert Churchill in a primary manipulation. Comes with a matching rickshaw pen sleeve. The pen is equipped with a Medium nib. I can substitute any other regular #6 sized nib. Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)",
-    images: ["https://i.imgur.com/ZfCFPB6.jpg"],
   },
   {
     id: 35,
