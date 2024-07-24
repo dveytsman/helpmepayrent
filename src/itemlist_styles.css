@@ -1,0 +1,17 @@
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+}
+
+@media screen and (max-width: 1000px) {
+  .items {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .items {
+    grid-template-columns: repeat(1, auto);
+  }
+}

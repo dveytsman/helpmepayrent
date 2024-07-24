@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ItemsList from "./ItemsList";
 import { items } from "./items_data";
-import "./item_styles.css";
+import "./app_styles.css";
 import Popup from "./Popup";
 
 const App = () => {
@@ -35,7 +35,9 @@ const App = () => {
   });
 
   const filteredItems = filteredTypeItems.filter((item) => {
-    return item.itemName.toLowerCase().includes(searchField.toLowerCase());
+    return item.itemName
+      .toLowerCase()
+      .includes(searchField.toLowerCase().trim());
   });
   const closeModal = () => {
     setModalIsOpen(false);
@@ -44,7 +46,7 @@ const App = () => {
   return (
     <div className="app">
       <h1>Help Me Pay Rent</h1>
-      <h3>This site is here to help me pay rent</h3>
+      <h3>The eccomerce site with a heart.</h3>
       <h4>
         TBD: The plan is to create a site for users in need of funds to pay
         bills to be able to sell their goods
