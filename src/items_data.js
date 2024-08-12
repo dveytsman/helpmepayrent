@@ -1,7 +1,7 @@
 export const items = [
   {
     id: 3,
-    price: 40,
+    price: 35,
     type: "Keyboard",
     itemName: "Apple Magic Keyboard",
     description: "in perfect working order, some minor signs of use",
@@ -12,7 +12,7 @@ export const items = [
   },
   {
     id: 5,
-    price: 90,
+    price: 80,
     type: "Keyboard",
     itemName: "Nuphy Air 65V2",
     description:
@@ -21,7 +21,7 @@ export const items = [
   },
   {
     id: 7,
-    price: 120,
+    price: 110,
     type: "Fountain Pen",
     itemName: "Opus 88 Jazz Blue with gold flex nib",
     description:
@@ -51,7 +51,7 @@ export const items = [
   },
   {
     id: 12,
-    price: 100,
+    price: 90,
     type: "Fountain Pen",
     itemName: "Esterbrook Estie in Tropical Rain Forest",
     description:
@@ -60,7 +60,7 @@ export const items = [
   },
   {
     id: 15,
-    price: 100,
+    price: 90,
     type: "Fountain Pen",
     itemName: "Franklin Christoph Model 66",
     description:
@@ -69,7 +69,7 @@ export const items = [
   },
   {
     id: 17,
-    price: 150,
+    price: 140,
     type: "Fountain Pen",
     itemName: "Gravitas Sentry in Black Delrin w/ gold ultraflex nib",
     description:
@@ -78,7 +78,7 @@ export const items = [
   },
   {
     id: 19,
-    price: 70,
+    price: 60,
     type: "Fountain Pen",
     itemName: "Gravitas Flagship",
     description:
@@ -87,7 +87,7 @@ export const items = [
   },
   {
     id: 20,
-    price: 75,
+    price: 65,
     type: "Fountain Pen",
     itemName: "Gravitas Flagship Black Skull",
     description:
@@ -96,7 +96,7 @@ export const items = [
   },
   {
     id: 21,
-    price: 65,
+    price: 55,
     type: "Fountain Pen",
     itemName: "Gravitas Flagship brass in skull pattern some cosmetic damage",
     description:
@@ -105,7 +105,7 @@ export const items = [
   },
   {
     id: 22,
-    price: 55,
+    price: 45,
     type: "Fountain Pen",
     itemName:
       "Gravitas Flagship in white cerakote and a steel pvd black section",
@@ -118,7 +118,7 @@ export const items = [
   },
   {
     id: 24,
-    price: 90,
+    price: 70,
     type: "Fountain Pen",
     itemName: "Montegrappa Elmo 01 in Iris Yellow",
     description:
@@ -127,16 +127,16 @@ export const items = [
   },
   {
     id: 26,
-    price: 140,
+    price: 70,
     type: "Fountain Pen",
     itemName: "Gravitas Flagship in Skittle finish",
     description:
-      "Gravitas Flagship model in skittle finish equipped with a Monty Winnfield Vario flex nib. I can substitute any other regular #6 sized nib, will take off $30. Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)",
+      "Gravitas Flagship model in skittle finish without a nib unit. I can add any other regular #6 sized nib. Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)",
     images: ["https://i.imgur.com/qHLFj6A.jpg"],
   },
   {
     id: 27,
-    price: 100,
+    price: 80,
     type: "Fountain Pen",
     itemName: "Gravitas Pocket Orange skull",
     description:
@@ -172,7 +172,7 @@ export const items = [
   },
   {
     id: 31,
-    price: 110,
+    price: 90,
     type: "Fountain Pen",
     itemName: "Gravitas Sentry in White Delrin, with orange grip section",
     description:
@@ -181,7 +181,7 @@ export const items = [
   },
   {
     id: 32,
-    price: 180,
+    price: 160,
     type: "Fountain Pen",
     itemName: "Gravitas Sentry in Steel",
     description:
@@ -190,7 +190,7 @@ export const items = [
   },
   {
     id: 33,
-    price: 150,
+    price: 130,
     type: "Fountain Pen",
     itemName: "Gravitas Ultemate Vac",
     description:
@@ -199,7 +199,7 @@ export const items = [
   },
   {
     id: 35,
-    price: 140,
+    price: 120,
     type: "Fountain Pen",
     itemName: "Karas Kustom Ink V2 in Raw Copper",
     description:
@@ -212,7 +212,7 @@ export const items = [
   },
   {
     id: 36,
-    price: 80,
+    price: 70,
     type: "Fountain Pen",
     itemName: "Kaweco Supra",
     description:

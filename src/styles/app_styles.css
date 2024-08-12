@@ -40,13 +40,6 @@ body {
   margin: 0px;
   border: 0px;
   font-family: var(--primary-font);
-  /* background-image: var(--hero-image); */
-  /* background-image: url("../../images_and_styling/coffee.jpg"); */
-  background-image: url("../../images_and_styling/coffee.jpg");
-
-  background-size: cover; /* Cover the entire element */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-position: center center; /* Center the image */
 }
 
 div {
