@@ -9,6 +9,7 @@ module.exports = {
     filename: "bundle.js",
     // The absolute path for the output directory
     path: path.resolve(__dirname, "public"),
+    publicPath: "/",
   },
   // Mode of the build process - can be 'development' or 'production'
   mode: "development",
