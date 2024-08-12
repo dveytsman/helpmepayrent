@@ -2,7 +2,8 @@ import React from "react";
 import Modal from "react-modal";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "./item_styles.css";
+import "./styles/item_styles.css";
+import "./styles/popup_styles.css";
 
 const Popup = ({ isOpen, onRequestClose, item }) => {
   if (!item) return null;

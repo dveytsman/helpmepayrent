@@ -1,5 +1,5 @@
 import React from "react";
-import "./item_styles.css";
+import "./styles/item_styles.css";
 
 const Item = ({ item, onClick }) => {
   return (

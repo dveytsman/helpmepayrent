@@ -1,6 +1,6 @@
 import React from "react";
 import Item from "./Item";
-import "./itemlist_styles.css";
+import "./styles/itemlist_styles.css";
 
 const ItemsList = ({ items, onItemClick }) => {
   return (

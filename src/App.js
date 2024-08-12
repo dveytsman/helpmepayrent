@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ItemsList from "./ItemsList";
 import { items } from "./items_data";
-import "./app_styles.css";
+import "./styles/app_styles.css";
 import Popup from "./Popup";
 
 const App = () => {

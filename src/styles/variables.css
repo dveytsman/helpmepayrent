@@ -1,0 +1,13 @@
+:root {
+  --coffee-brown: #2f2911;
+  --nice-peach: #d5ba98;
+  --photo-beige: #88724a;
+  --cool-blue: #3090b3;
+  --light-olive-green: #92a77c;
+  --primary-font: "Quicksand", sans-serif;
+  --secondary-font: "Arial", sans-serif;
+  --breakpoint-mobile: 480px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1024px;
+  --hero-image: url("../../images_and_styling/coffee.jpg");
+}
