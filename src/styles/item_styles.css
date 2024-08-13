@@ -1,3 +1,5 @@
+@import url("variables.css");
+
 .item img {
   width: 50%;
   margin: 10px;
@@ -9,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   border: solid black 1px;
-  border-radius: 30px;
+  border-radius: 20px;
   margin: 10px;
-  background-color: rgba(37, 37, 240, 0.14);
+  background-color: var(--subdued-blue);
 }

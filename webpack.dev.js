@@ -1,4 +1,5 @@
 const path = require("path");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   // The entry point of the application, where Webpack starts bundling
@@ -33,22 +34,8 @@ module.exports = {
       },
       {
         // A regular expression to test for image files (png, jpeg, gif, svg)
-        test: /\.(png|jpe?g|gif|svg)$/i,
-        // Use 'file-loader' to handle image files
-        use: [
-          {
-            loader: "file-loader",
-            // Options for 'file-loader'
-            options: {
-              // The naming pattern for the output files
-              name: "[path][name].[ext]",
-              // The output directory for image files
-              outputPath: "images/",
-              // The public URL for image files
-              publicPath: "images/",
-            },
-          },
-        ],
+        test: /\.(png|jpg|jpeg|gif|svg)$/i,
+        type: "asset/resource",
       },
       {
         rules: [
@@ -65,6 +52,16 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx"], // Add other extensions if needed
   },
+  plugins: [
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, "src/assets/images"),
+          to: path.resolve(__dirname, "public/images"),
+        },
+      ],
+    }),
+  ],
   // Configuration for the development server
   devServer: {
     // Specify the directory for serving static files

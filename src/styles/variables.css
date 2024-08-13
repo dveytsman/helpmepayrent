@@ -1,6 +1,6 @@
 :root {
   --coffee-brown: #2f2911;
-  --nice-peach: #d5ba98;
+  --nice-peachw: #d5ba98;
   --photo-beige: #88724a;
   --cool-blue: #3090b3;
   --light-olive-green: #92a77c;
@@ -9,4 +9,9 @@
   --breakpoint-mobile: 480px;
   --breakpoint-tablet: 768px;
   --breakpoint-desktop: 1024px;
+  --darkred: #3e3a39;
+  --nice-peach: #d6bc9b;
+  --asset-brown: #987d61;
+  --subdued-blue: #9ab6b7;
+  --boring-blue: #7e97ae;
 }

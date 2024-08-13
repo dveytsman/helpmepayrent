@@ -45,12 +45,14 @@ const App = () => {
   return (
     <div className="app">
       <div className="hero">
-        <h1>Help Me Pay Rent</h1>
-        <h3>The E-commerce site with a heart.</h3>
-        <h4>
-          TBD: The plan is to create a site for users in need of funds to pay
-          bills to be able to sell their goods
-        </h4>
+        <div className="hero-text">
+          <h1>Help Me Pay Rent</h1>
+          <h3>The E-commerce site with a heart.</h3>
+          <h4>
+            TBD: The plan is to create a site for users in need of funds to pay
+            bills to be able to sell their goods
+          </h4>
+        </div>
       </div>
 
       <select

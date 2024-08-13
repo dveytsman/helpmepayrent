@@ -102,6 +102,11 @@ module.exports = {
         },
       },
       {
+        // A regular expression to test for image files (png, jpeg, gif, svg)
+        test: /\.(png|jpg|jpeg|gif|svg)$/i,
+        type: "asset/resource",
+      },
+      {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
       },
