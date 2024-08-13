@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d build",
     "start": "webpack serve --config webpack.dev.js",
     "startdev": "webpack serve --mode development",
-    "build": "PUBLIC_URL=https://www.helpmepayrent.com webpack --config webpack.prod.js",
+    "build": "PUBLIC_URL=https://www.helpmepayrent.com/ webpack --config webpack.prod.js",
     "test": "test"
   },
   "author": "David Veytsman",
