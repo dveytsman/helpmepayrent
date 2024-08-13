@@ -176,7 +176,7 @@ export const items = [
     type: "Fountain Pen",
     itemName: "Gravitas Sentry in White Delrin, with orange grip section",
     description:
-      "Gravitas Sentry in white delrin. The grip section is an orange covered steel section. The nib is a verso nib by Monty Winnfield (xxf on the front and Medium on the reverse). I can take off 20 dollars and substitute any other regular #6 sized nib. Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)",
+      "Gravitas Sentry in white delrin. The grip section is an orange covered steel section. I can put in any regular #6 sized nib. Other nib styles available upon request (stacked, fude, concord, italic, music, flex (multiple different flex nib units) price varies)",
     images: ["https://i.imgur.com/bcwWAjO.jpg"],
   },
   {
