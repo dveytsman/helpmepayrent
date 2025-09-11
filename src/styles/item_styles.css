@@ -1,17 +1,34 @@
 @import url("variables.css");
 
-.item img {
-  width: 50%;
-  margin: 10px;
-}
-
 .item {
   padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: solid black 1px;
-  border-radius: 20px;
   margin: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
   background-color: var(--subdued-blue);
+  cursor: pointer;
+  will-change: transform, opacity;
+
+  --ty: 24px;
+  --s: 1;
+  transform: translateY(var(--ty)) scale(var(--s));
+
+  opacity: 0;
+}
+
+.item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  margin: 10px 0;
+}
+
+.item h3 {
+  margin: 0 0 .5rem 0
+}
+
+.item p {
+  margin: .25rem 0
 }

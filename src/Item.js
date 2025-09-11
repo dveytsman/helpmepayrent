@@ -1,14 +1,15 @@
-import React from "react";
-import "./styles/item_styles.css";
+import React from 'react'
+import './styles/item_styles.css'
 
 const Item = ({ item, onClick }) => {
   return (
-    <div className="item" onClick={() => onClick(item)}>
+    <div className='item' onClick={() => onClick(item)}>
       <h3>{item.itemName}</h3>
-      <img src={item.images[0]} />
+      <img src={item.images[0]} alt={item.itemName} />
       <p>{item.description}</p>
       <p>Price: ${item.price}</p>
     </div>
-  );
-};
-export default Item;
+  )
+}
+
+export default Item

@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ItemsList from "./ItemsList";
 import { items } from "./items_data";
 import "./styles/app_styles.css";
 import Popup from "./Popup";
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+gsap.registerPlugin(ScrollTrigger)
 
 const App = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -16,6 +19,11 @@ const App = () => {
   const handleSearch = (e) => {
     setSearchField(e.target.value);
   };
+
+  useEffect(() => {
+  // register once
+  if (!gsap.core.globals().ScrollTrigger) gsap.registerPlugin(ScrollTrigger)
+}, [])
 
   const handleFilterChange = (event) => {
     setFilterType(event.target.value);

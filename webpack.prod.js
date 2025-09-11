@@ -81,12 +81,35 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require("webpack");
 
+function ensureSlash(s) {
+  return s.endsWith('/') ? s : s + '/';
+}
+
+// Default for GitHub Pages when no env var is set:
+let publicPath = '/helpmepayrent/';
+// If PUBLIC_URL is provided by the build script, prefer its pathname.
+if (process.env.PUBLIC_URL) {
+  try {
+    const u = new URL(process.env.PUBLIC_URL);
+    publicPath = ensureSlash(u.pathname || '/');
+  } catch {
+    publicPath = ensureSlash(process.env.PUBLIC_URL);
+  }
+}
+
+
 module.exports = {
   entry: "./src/index.js",
-  output: {
+  // output: {
+  //   filename: "bundle.js",
+  //   path: path.resolve(__dirname, "build"),
+  //   publicPath: process.env.PUBLIC_URL || "/",
+  // },
+    output: {
+    path: path.resolve(__dirname, 'build'),
     filename: "bundle.js",
-    path: path.resolve(__dirname, "build"),
-    publicPath: process.env.PUBLIC_URL || "/",
+    publicPath: publicPath.endsWith('/') ? publicPath : publicPath + '/', // important
+    clean: true
   },
   mode: "production",
   module: {
